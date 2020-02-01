@@ -1,0 +1,10 @@
+.content{
+  position:sticky;
+  top:0vh;
+  margin-bottom:25vh;
+  padding-top:25vh;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}

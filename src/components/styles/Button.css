@@ -1,0 +1,11 @@
+.button{
+  display:block;
+  width:100%;
+}
+.button a{
+  background-color:#D9544A;
+  padding:25px 95px;
+  text-transform: capitalize;
+  display:inline-block;
+  color:white;
+}

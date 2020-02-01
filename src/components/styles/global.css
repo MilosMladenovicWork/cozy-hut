@@ -1,0 +1,21 @@
+a{
+  text-decoration:none;
+}
+
+body{
+  margin:0;
+  box-sizing:border-box;
+  color:white;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin:0;
+}
+
+h1{
+  font-size:calc(108px - 2vmin);
+  text-transform: capitalize;
+  padding:0 20px;
+  clip-path: polygon(15px 0, 100% 0%, calc(100% - 15px) 100%, 0% 100%);
+  background-color:rgba(0, 0, 0, 0.54);
+}
