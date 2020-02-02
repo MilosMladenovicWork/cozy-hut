@@ -6,4 +6,5 @@
   padding:45px;
   text-align: center;
   clip-path: polygon(15px 0, 100% 0%, calc(100% - 15px) 100%, 0% 100%);
+  transition:1s;
 }
