@@ -1,4 +1,4 @@
-import React, {useRef, useEffect} from 'react' 
+import React from 'react' 
 import './styles/Container.css'
 
 function Container({children, assets}){

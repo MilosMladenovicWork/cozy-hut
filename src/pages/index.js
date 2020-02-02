@@ -1,4 +1,4 @@
-import React, {useRef} from "react"
+import React from "react"
 import Layout from '../layouts/layout'
 import Container from '../components/Container'
 import Content from '../components/Content'
