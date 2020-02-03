@@ -1,0 +1,10 @@
+button{
+  background-color:#D9544A;
+  padding:25px 95px;
+  text-transform: capitalize;
+  display:inline-block;
+  color:white;
+  border:none;
+  width:fit-content;
+  margin-left:auto;
+}

@@ -14,6 +14,7 @@
   border:2px solid white;
   padding:5px;
   outline:none;
+  font-family: 'Raleway', sans-serif;
 }
 
 .form textarea{
@@ -25,13 +26,16 @@
   min-height:175px;
   outline:none;
   resize:vertical;
+  font-family: 'Raleway', sans-serif;
 }
 
 .form ::placeholder{
   color:white;
+  font-family: 'Raleway', sans-serif;
 }
 
-.form .button{
-  display:flex;
-  justify-content: flex-end;
+@media (max-width:1200px){
+  .form{
+    width:100%;
+  }
 }

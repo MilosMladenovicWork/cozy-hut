@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
 a{
   text-decoration:none;
 }
@@ -6,6 +8,7 @@ body{
   margin:0;
   box-sizing:border-box;
   color:white;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -18,4 +21,10 @@ h1{
   padding:0 20px;
   clip-path: polygon(15px 0, 100% 0%, calc(100% - 15px) 100%, 0% 100%);
   background-color:rgba(0, 0, 0, 0.54);
+}
+
+@media (max-width:1200px){
+  h1{
+    font-size:calc(72px - 2vmin);
+  }
 }
