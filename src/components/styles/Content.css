@@ -9,3 +9,9 @@
   transform:translateY(-50%);
   transition:0.5s;
 }
+
+@media (max-width:1200px){
+  .content{
+    transform: translateY(0);
+  }
+}

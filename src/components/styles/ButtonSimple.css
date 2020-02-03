@@ -7,4 +7,12 @@ button{
   border:none;
   width:fit-content;
   margin-left:auto;
+  box-sizing: border-box;
+}
+
+@media (max-width:1200px){
+  button{
+    width:100%;
+    padding:25px 20vw;
+  }
 }
