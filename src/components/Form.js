@@ -4,7 +4,7 @@ import '../components/styles/Form.css'
 
 const Form = () => {
   return(
-    <form className='form'>
+    <form className='form' action='/contact/submit' method='POST'>
       <input type='text' placeholder='Name' name='name'/>
       <input type='email' placeholder='Email' name='email'/>
       <textarea placeholder='Message' name='message'></textarea>

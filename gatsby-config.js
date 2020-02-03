@@ -5,5 +5,13 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins:[
+    {
+    resolve:`@mangoart/gatsby-plugin-purechat`,
+    options:{
+      enabled:true,
+      websiteId:`ef458d92-15e8-4837-b1c7-782e941f9699`
+    }
+  }
+]
 }

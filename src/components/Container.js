@@ -3,11 +3,15 @@ import {useInView} from 'react-intersection-observer'
 import './styles/Container.css'
 
 function Container({children, assets, getOpacity}){
-  const [size, setSize] = useState(window.innerHeight/window.innerHeight * 130)
+  const [size, setSize] = useState(130)
   const [opacity, setOpacity] = useState(0)
   const [ref, inView, entry] = useInView({
     threshold:0.5
   })
+
+  useEffect(() => {
+    setSize(window.innerHeight/window.innerHeight * 130)
+  },[])
 
   
   useEffect(() => {
