@@ -6,7 +6,7 @@ import Header from '../components/Header'
 import Button from '../components/Button'
 import Description from '../components/Description'
 import norway from '../images/norway.jpg'
-import night from '../images/night.jpg'
+import sunset from '../images/sunset.jpg'
 
 const Index = () =>{
   return (
@@ -31,7 +31,7 @@ const Index = () =>{
         </Container>
         <Container 
           assets={{
-            background:night, 
+            background:sunset, 
             backgroundX:'center', 
             backgroundY:'center'}}
         >
